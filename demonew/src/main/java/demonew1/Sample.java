@@ -8,7 +8,7 @@ public class Sample {
 		Scanner sc = new Scanner(System.in);
 		Class.forName("com.mysql.cj.jdbc.Driver");
 		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306", "root", "root");
-	PreparedStatement p = con.prepareStatement("create database Boss1");
+	PreparedStatement p = con.prepareStatement("create database bank");
 ////	PreparedStatement p = con.prepareStatement("create table Sample.Student(id integer primary key, name varchar(40) unique not null,Addres varchar(100))"); 
 //		PreparedStatement p = con.prepareStatement("insert into Sample.Student  values(?,?,?)");	
 //		System.out.println("enter id");
